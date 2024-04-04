@@ -1,0 +1,10 @@
+name: GODOCKERHUB
+
+#main 브렌치에 push를 하거나 pull_request 를 할 때 동작
+
+on:
+  push:
+    branches:["main"]
+
+  pull_request:
+    branches:["main"]
